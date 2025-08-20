@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publica no LED - Painel de LED em Jaraguá do Sul | Publicidade Digital</title>
+    <meta name="description" content="Anuncie no maior painel de LED de Jaraguá do Sul. Sua marca vista 24h por dia com cores vibrantes e alta visibilidade. Aumente seu alcance!">
+    <meta name="keywords" content="Painel de LED, Publicidade em Painel de led, Propaganda em painel de led, Painel de LED em jaraguá do sul, Publicidade Jaraguá do Sul, Marketing em jaraguá do sul">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://publicanoled.com.br/">
+    <meta property="og:title" content="Publica no LED - Painel de LED em Jaraguá do Sul">
+    <meta property="og:description" content="Anuncie no maior painel de LED de Jaraguá do Sul. Sua marca vista 24h por dia com cores vibrantes e alta visibilidade.">
+    <meta property="og:image" content="https://publicanoled.com.br/img/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://publicanoled.com.br/">
+    <meta property="twitter:title" content="Publica no LED - Painel de LED em Jaraguá do Sul">
+    <meta property="twitter:description" content="Anuncie no maior painel de LED de Jaraguá do Sul. Sua marca vista 24h por dia com cores vibrantes e alta visibilidade.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔆</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #7C00FE;
+            --secondary: #211951;
+            --accent: #FFAF00;
+            --accent2: #F5004F;
+            --accent3: #15F5BA;
+            --dark: #000000;
+            --light: #F0F3FF;
+            --text: #333333;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            background-color: var(--light);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header & Navigation */
+        header {
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
+            color: white;
+            padding: 1.5rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .logo i {
+            margin-right: 10px;
+            color: var(--accent);
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li a {
+            display: block;
+            padding: 0.8rem 1.2rem;
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border-radius: 4px;
+        }
+        
+        nav ul li a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: var(--accent);
+        }
+        
+        .nav-cta {
+            background-color: var(--accent);
+            color: var(--dark) !important;
+            font-weight: 600;
+            margin-left: 15px;
+        }
+        
+        .nav-cta:hover {
+            background-color: var(--accent2) !important;
+            color: white !important;
+        }
+        
+        .nav-social {
+            font-size: 1.2rem;
+            padding: 0.6rem;
+        }
+        
+        .mobile-toggle {
+            display: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        
+        /* Hero Section */
+        .hero {
+            padding: 10rem 0 5rem;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1591892153785-8dc0e249c4c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 800;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background-color: var(--accent);
+            color: var(--dark);
+            text-decoration: none;
+            font-weight: 700;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(255, 175, 0, 0.4);
+            margin: 0 10px 15px;
+        }
+        
+        .cta-button:hover {
+            background-color: var(--accent2);
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(245, 0, 79, 0.4);
+        }
+        
+        .led-message {
+            background: linear-gradient(90deg, var(--dark) 0%, var(--primary) 50%, var(--dark) 100%);
+            padding: 15px;
+            border: 2px solid var(--accent);
+            border-radius: 8px;
+            margin: 30px auto;
+            max-width: 600px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 0 20px rgba(124, 0, 254, 0.5);
+        }
+        
+        .scrolling-text {
+            color: white;
+            font-size: 1.8rem;
+            font-weight: 700;
+            white-space: nowrap;
+            animation: scrollText 15s linear infinite;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+        }
+        
+        @keyframes scrollText {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        
+        /* About Section */
+        .about {
+            padding: 5rem 0;
+            background-color: white;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        
+        .section-title p {
+            color: #777;
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+        }
+        
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3rem;
+            align-items: center;
+        }
+        
+        .about-text {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .about-text p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+        
+        .about-image {
+            flex: 1;
+            min-width: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        .about-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        /* LED Panel Section */
+        .led-panel {
+            padding: 5rem 0;
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
+            color: white;
+        }
+        
+        .led-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3rem;
+            align-items: center;
+        }
+        
+        .led-info {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .led-info h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent);
+        }
+        
+        .specs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .spec-item {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .spec-item:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-5px);
+        }
+        
+        .spec-item i {
+            font-size: 2rem;
+            color: var(--accent3);
+            margin-bottom: 1rem;
+        }
+        
+        .spec-item h4 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .led-map {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .map-container {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            height: 300px;
+        }
+        
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .video-container {
+            margin-top: 3rem;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            position: relative;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        /* Services Section */
+        .services {
+            padding: 5rem 0;
+            background-color: white;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .service-card {
+            background: linear-gradient(135deg, #fff 0%, #f9f9f9 100%);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border: 1px solid #eee;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        .service-image {
+            height: 200px;
+            background-color: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 4rem;
+        }
+        
+        .service-content {
+            padding: 2rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .service-content h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--secondary);
+        }
+        
+        .service-content p {
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+        
+        .service-price {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin: 1rem 0;
+        }
+        
+        .service-savings {
+            color: var(--accent2);
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+        
+        .service-cta {
+            align-self: center;
+            margin-top: auto;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 4rem 0 2rem;
+        }
+        
+        .footer-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+        
+        .footer-column {
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        .footer-column h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--accent);
+        }
+        
+        .footer-contact p {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .footer-contact i {
+            margin-right: 10px;
+            color: var(--accent3);
+        }
+        
+        .footer-social {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        
+        .social-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .social-icon:hover {
+            background-color: var(--primary);
+            transform: translateY(-3px);
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        /* WhatsApp Float */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            width: 60px;
+            height: 60px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.5);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 1.8rem;
+            transition: all 0.3s ease;
+            animation: pulse 2s infinite;
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 25px rgba(37, 211, 102, 0.7);
+        }
+        
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(37, 211, 102, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 992px) {
+            .hero h1 {
+                font-size: 2.8rem;
+            }
+            
+            nav ul {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background-color: var(--secondary);
+                flex-direction: column;
+                padding: 1rem 0;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            }
+            
+            nav ul.active {
+                display: flex;
+            }
+            
+            nav ul li {
+                width: 100%;
+                text-align: center;
+            }
+            
+            nav ul li a {
+                padding: 1rem;
+            }
+            
+            .mobile-toggle {
+                display: block;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .hero {
+                padding: 8rem 0 4rem;
+            }
+            
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            
+            .scrolling-text {
+                font-size: 1.4rem;
+            }
+            
+            .section-title h2 {
+                font-size: 2rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .cta-button {
+                display: block;
+                margin: 10px auto;
+            }
+            
+            .led-message {
+                padding: 10px;
+            }
+            
+            .scrolling-text {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="fas fa-signal"></i> Publica no LED
+            </a>
+            
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#led-panel">Painel de LED</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="https://www.instagram.com/publicanoled/" class="nav-social" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://wa.me/5547988620286" class="nav-cta">Compre Agora</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h1>Seu Anúncio com Máximo Impacto Visual</h1>
+            <p>O painel de LED mais visível de Jaraguá do Sul, exibindo sua marca 24 horas por dia com cores vibrantes e alta definição.</p>
+            
+            <div class="led-message">
+                <div class="scrolling-text">Aqui seu Anúncio é Visto • Aqui seu Anúncio é Visto • Aqui seu Anúncio é Visto •</div>
+            </div>
+            
+            <a href="https://wa.me/5547988620286" class="cta-button">Solicitar Orçamento <i class="fas fa-arrow-right"></i></a>
+            <a href="#services" class="cta-button" style="background-color: var(--primary); color: white;">Ver Planos</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sobre Nós</h2>
+                <p>Conheça a Publica no LED e descubra como podemos aumentar a visibilidade da sua marca</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>A <strong>Publica no LED</strong> é a solução definitiva para empresas que desejam maximizar sua visibilidade em Jaraguá do Sul e região. Nosso painel de LED de alta tecnologia está estrategicamente localizado no centro da cidade, garantindo que sua mensagem alcance milhares de pessoas diariamente.</p>
+                    <p>Combinando tecnologia de ponta, brilho intenso e cores vibrantes, oferecemos a plataforma perfeita para campanhas publicitárias de alto impacto. Seja para lançamentos, promoções ou fortalecimento de marca, nosso painel garante que sua mensagem seja vista e lembrada.</p>
+                    <p>Nossa missão é simples: conectar marcas a pessoas através de uma publicidade visual impressionante e memorável, gerando resultados tangíveis para o seu negócio.</p>
+                </div>
+                
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Painel de LED da Publica no LED">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LED Panel Section -->
+    <section class="led-panel" id="led-panel">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nosso Painel de LED</h2>
+                <p>Conheça as especificações técnicas e localização do nosso painel de alta visibilidade</p>
+            </div>
+            
+            <div class="led-content">
+                <div class="led-info">
+                    <h3>Especificações Técnicas</h3>
+                    <p>Nosso painel de LED oferece a melhor tecnologia disponível no mercado, garantindo que seu anúncio tenha máxima visibilidade mesmo sob a luz direta do sol.</p>
+                    
+                    <div class="specs-grid">
+                        <div class="spec-item">
+                            <i class="fas fa-ruler-combined"></i>
+                            <h4>Tamanho</h4>
+                            <p>2m x 1m</p>
+                        </div>
+                        
+                        <div class="spec-item">
+                            <i class="fas fa-sun"></i>
+                            <h4>Visibilidade</h4>
+                            <p>24 horas por dia</p>
+                        </div>
+                        
+                        <div class="spec-item">
+                            <i class="fas fa-palette"></i>
+                            <h4>Cores</h4>
+                            <p>Vibrantes e Brilho Intenso</p>
+                        </div>
+                        
+                        <div class="spec-item">
+                            <i class="fas fa-eye"></i>
+                            <h4>Alcance</h4>
+                            <p>Milhares de pessoas/dia</p>
+                        </div>
+                    </div>
+                    
+                    <h3>Localização Estratégica</h3>
+                    <p>Nosso painel está localizado no coração de Jaraguá do Sul, na <strong>Av. Mal. Deodoro da Fonseca, 930 - Centro</strong>, um dos pontos de maior circulação de veículos e pedestres da cidade.</p>
+                </div>
+                
+                <div class="led-map">
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.4381666851!2d-49.0671239244051!3d-26.99393309999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df1a9912f14c4d%3A0x7a8e9e3b22b0c0c8!2sAv.%20Mal.%20Deodoro%20da%20Fonseca%2C%20930%20-%20Centro%2C%20Jaragu%C3%A1%20do%20Sul%20-%20SC%2C%2089251-700!5e0!3m2!1spt-BR!2sbr!4v1686071567898!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/D46ohJhYeWg" title="Vídeo do Painel de LED" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Planos</h2>
+                <p>Escolha o plano ideal para potencializar sua campanha publicitária</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    
+                    <div class="service-content">
+                        <h3>Anúncio Mensal</h3>
+                        <p>Ideal para campanhas promocionais e lançamentos. Seu anúncio será exibido durante 30 dias consecutivos com rotação a cada 10 segundos.</p>
+                        
+                        <ul>
+                            <li>Exibição 24 horas por dia</li>
+                            <li>Rotação a cada 10 segundos</li>
+                            <li>Relatório de visualizações</li>
+                            <li>Design da arte incluso</li>
+                        </ul>
+                        
+                        <div class="service-price">R$ 380/mês</div>
+                        
+                        <div class="service-cta">
+                            <a href="https://wa.me/5547988620286?text=Olá! Gostaria de saber mais sobre o plano mensal" class="cta-button">Contratar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <i class="fas fa-calendar-star"></i>
+                    </div>
+                    
+                    <div class="service-content">
+                        <h3>Pacote Trimestral</h3>
+                        <p>Máximo impacto com desconto especial. Ideal para empresas que querem presença constante e resultados duradouros.</p>
+                        
+                        <ul>
+                            <li>3 meses de exibição</li>
+                            <li>Rotação a cada 10 segundos</li>
+                            <li>3 artes diferentes incluídas</li>
+                            <li>Suporte prioritário</li>
+                            <li>Relatórios mensais detalhados</li>
+                        </ul>
+                        
+                        <div class="service-price">R$ 750/trimestre</div>
+                        <div class="service-savings">Economize quase R$ 400 em relação ao plano mensal</div>
+                        
+                        <div class="service-cta">
+                            <a href="https://wa.me/5547988620286?text=Olá! Gostaria de saber mais sobre o plano trimestral" class="cta-button">Contratar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Publica no LED</h3>
+                    <p>O painel de LED de maior visibilidade em Jaraguá do Sul, levando sua marca para milhares de pessoas todos os dias.</p>
+                    
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/publicanoled/" class="social-icon" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61579294603940" class="social-icon" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contato</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Av. Mal. Deodoro da Fonseca, 930 - Centro, Jaraguá do Sul - SC</p>
+                        <p><i class="fas fa-envelope"></i> publicanoled@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> (47) 98862-0286</p>
+                        <p><i class="fas fa-clock"></i> Atendimento 24h</p>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Links Rápidos</h3>
+                    <ul style="list-style: none;">
+                        <li><a href="#about" style="color: white; text-decoration: none; display: block; margin-bottom: 10px;"><i class="fas fa-arrow-right"></i> Sobre Nós</a></li>
+                        <li><a href="#led-panel" style="color: white; text-decoration: none; display: block; margin-bottom: 10px;"><i class="fas fa-arrow-right"></i> Nosso Painel</a></li>
+                        <li><a href="#services" style="color: white; text-decoration: none; display: block; margin-bottom: 10px;"><i class="fas fa-arrow-right"></i> Planos</a></li>
+                        <li><a href="#contact" style="color: white; text-decoration: none; display: block; margin-bottom: 10px;"><i class="fas fa-arrow-right"></i> Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Publica no LED - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/5547988620286" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script>
+        // Mobile Navigation Toggle
+        document.querySelector('.mobile-toggle').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('nav ul').classList.remove('active');
+            });
+        });
+        
+        // Simple animation for elements when scrolling
+        window.addEventListener('scroll', function() {
+            const elements = document.querySelectorAll('.service-card, .spec-item, .about-image');
+            
+            elements.forEach(element => {
+                const position = element.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.3;
+                
+                if(position < screenPosition) {
+                    element.style.opacity = 1;
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        });
+        
+        // Initialize elements with opacity 0 for animation
+        document.querySelectorAll('.service-card, .spec-item, .about-image').forEach(element => {
+            element.style.opacity = 0;
+            element.style.transform = 'translateY(20px)';
+            element.style.transition = 'all 0.5s ease';
+        });
+        
+        // Trigger scroll once to check initial positions
+        window.dispatchEvent(new Event('scroll'));
+    </script>
+</body>
+</html>
